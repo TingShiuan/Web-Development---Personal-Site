@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Tiffany's Contact Page</title>
+</head>
+
+<body>
+    <h1>Ting-Shiuan Chen</h1>
+    <br>
+    <h2>My Contact information</h2>
+    <p>
+    <ul>
+        <li><strong>(Primary) Email:</strong> chen89@uw.edu</li>
+        <li><strong>Linkedin:</strong> <a href="https://www.linkedin.com/in/ting-shiuan-chen/">link</a></li>
+        <li><strong>Phone Number:</strong> not prefer</li>
+    </ul>
+    </p>
+    <hr>
+    <h4>Contact Me</h4>
+    <p>
+        <!--"action": where to react to after enter submit-->
+    <form action="mailto:chen89@uw.edu" method="post" enctype="text/plain">
+        <label>Your Name:</label>
+        <input type="text" name="yourName" value=""><br>
+        <label>Your Email:</label>
+        <input type="email" name="yourEmail" value=""><br>
+        <label>Your Phone Number:</label>
+        <input type="tel" name="YourPhoneNumber" value=""><br>
+        <fieldset>
+            <legend><strong>Prefer Contact Method:</strong></legend>
+            <label><input type="radio" name="radio" value="Email">Email</label>
+            <label><input type="radio" name="radio" value="Phone Number">Phone Number</label>
+            <label><input type="radio" name="radio" value="Both">Both</label>
+        </fieldset>
+        <br>
+        <label>Your Message:</label><br>
+        <textarea name="yourMessage" value="" rows="10" col="30"></textarea><br>
+        <input type="submit" name="" value="Submit">
+    </form>
+    </p>
+</body>
+
+</html>
